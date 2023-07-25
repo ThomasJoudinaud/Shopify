@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+}
+body {
+  width: 87%;
+  margin: auto;
+}
+/*1er block*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #212326;
+  color: #fff;
+}
+header img,
+footer img {
+  width: 150px;
+  padding-top: 10px;
+}
+header h1 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 100px;
+  padding: 40px;
+}
+header #email input[type="text"] {
+  width: 360px;
+  border: 0px;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+#email a {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #b2e0bc;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 5px;
+}
+header p {
+  font-size: 12px;
+  padding: 30px;
+  width: 520px;
+  text-align: center;
+}
+header h2 {
+  padding: 60px 30px 30px 30px;
+  font-size: 40px;
+  text-align: center;
+}
+/*fin 1er block*/
+/*2eme block*/
+#grass {
+  padding-bottom: 100px;
+  background-color: #212326;
+}
+.examples {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #212326;
+  color: #fff;
+  padding: 30px 10px 5px 10px;
+}
+.examples_items {
+  width: 30%;
+}
+.examples_items img {
+  width: 100%;
+}
+.legende {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 90%;
+}
+.numero {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px;
+}
+/***********************************************************/
+#end {
+  background: linear-gradient(#d9f0de, #fff);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+#end h2 {
+  width: 90%;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+}
+#end p {
+  font-size: 32px;
+}
+
+#end hr {
+  color: #000;
+  height: 2px;
+  width: 80%;
+  margin: 100px;
+}
+#end h3 {
+  font-size: 40px;
+}
+/***************************************************************/
+#last {
+  display: flex;
+  padding: 150px 20px;
+  width: 100%;
+  justify-content: space-around;
+}
+.last_item h4 {
+  padding: 20px 0px;
+  font-weight: 600;
+  font-size: 16px;
+}
+#last p {
+  font-size: 14px;
+  color: #777;
+}
+/*********************************************************/
+footer {
+  background-color: #212326;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 120px 0px;
+}
+footer h2 {
+  font-size: 30px;
+  text-align: center;
+}
+footer img {
+  padding-left: 10px;
+}
+footer p {
+  padding: 20px 0px 40px 0px;
+  vertical-align: middle;
+}
